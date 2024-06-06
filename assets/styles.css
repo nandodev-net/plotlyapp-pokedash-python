@@ -1,0 +1,22 @@
+.blurry-image {
+    width: 100%;
+    filter: blur(5px);
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 10%;  /* Ajusta este valor para colocar la imagen más cerca del margen superior */
+    left: 50%;
+    transform: translateX(-50%);  /* Solo se traduce horizontalmente */
+    max-width: 40%;
+    height: auto;
+}
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .title {
+        max-width: 80%;
+        top: 5%;  /* Ajusta este valor para dispositivos móviles */
+    }
+}
