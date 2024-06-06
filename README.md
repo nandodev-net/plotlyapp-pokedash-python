@@ -1,4 +1,4 @@
-![Poke-Dash Banner](assets/banner.jpg)
+![Poke-Dash Banner](assets/img/bannerPR.png)
 
 # Poke-Dash: Interactive Pokémon Data Visualization Dashboard
 
@@ -60,6 +60,8 @@ python app.py
 
 # Example Dashboard
 Here is a preview of the Poke-Dash dashboard:
+
+![Poke-Dash GIF](assets/img/app.gif)
 
 
 ## Contributing

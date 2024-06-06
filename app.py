@@ -27,8 +27,8 @@ app.layout = html.Div(
     [
         html.Div(
             [
-            html.Img(src='/assets/banner.jpg', className='blurry-image'),
-            html.Img(src='/assets/pokedash.png', className='title'),
+            html.Img(src='/assets/img/banner.jpg', className='blurry-image'),
+            html.Img(src='/assets/img/pokedash.png', className='title'),
             ]
         ),
         html.H1(className='space'),
