@@ -1,6 +1,7 @@
 import pandas as pd
-import plotly.express as px
 from dash import Dash, Input, Output, callback, dcc, html
+
+import plotly.express as px
 
 """
 Load the dataset and initialize the Dash application.
@@ -27,11 +28,11 @@ app.layout = html.Div(
     [
         html.Div(
             [
-            html.Img(src='/assets/img/banner.jpg', className='blurry-image'),
-            html.Img(src='/assets/img/pokedash.png', className='title'),
+                html.Img(src="/assets/img/banner.jpg", className="blurry-image"),
+                html.Img(src="/assets/img/pokedash.png", className="title"),
             ]
         ),
-        html.H1(className='space'),
+        html.H1(className="space"),
         html.P(children="select your Pokemon type:"),
         dcc.Dropdown(
             id="dropdown-type-selection",
@@ -134,11 +135,11 @@ def update_graph(selected_type, selected_metric, chart_type):
         to be displayed in the Graph component.
     """
     if selected_type is None:
-        selected_type = df['type'].unique()[0]
+        selected_type = df["type"].unique()[0]
     if selected_metric is None:
-        selected_metric = 'hp'
+        selected_metric = "hp"
     if chart_type is None:
-        chart_type = 'bar'
+        chart_type = "bar"
 
     dff = df[df.type == selected_type]
     chart_function = chart_functions[chart_type]
