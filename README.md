@@ -1,3 +1,5 @@
+![Poke-Dash Banner](assets/banner.jpg)
+
 # Poke-Dash: Interactive Pokémon Data Visualization Dashboard
 
 Poke-Dash is an interactive data visualization dashboard built using Plotly, Dash, and pandas. This project demonstrates how to create a dynamic and responsive web application to explore and visualize data on the first 150 Pokémon. With Poke-Dash, you can filter Pokémon by type, select various metrics to display, and choose different types of charts to visualize the data.
