@@ -68,7 +68,7 @@ Here is a preview of the Poke-Dash dashboard:
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
 
 ## Acknowledgments
 - Plotly for the amazing graphing library.
